@@ -95,6 +95,19 @@ export default function Founders() {
                       <p className="text-sm text-slate-700 font-medium">{t.chris.role4}</p>
                     </div>
                   </div>
+
+                  {/* NEW: USAPHO qualifier */}
+                  <div className="flex items-start p-4 bg-emerald-50 rounded-xl border border-emerald-100">
+                    <Award className="w-5 h-5 text-emerald-700 mr-3 mt-0.5 flex-shrink-0" />
+                    <div>
+                      <p className="text-sm text-emerald-800 font-semibold">{t.chris.role5}</p>
+                      {/* optional extra small detail line — keep if translations provide it */}
+                      {t.chris.role5Detail ? (
+                        <p className="text-sm text-gray-600 mt-1">{t.chris.role5Detail}</p>
+                      ) : null}
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
