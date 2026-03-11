@@ -71,6 +71,20 @@ export default function Founders() {
                 </p>
 
                 <div className="grid grid-cols-1 gap-4">
+
+                  {/* ===== NEW: USAPHO (FIRST, same style as other items) ===== */}
+                  <div className="flex items-start p-4 bg-slate-50 rounded-xl border border-slate-100">
+                    <Award className="w-5 h-5 text-slate-900 mr-3 mt-0.5 flex-shrink-0" />
+                    <div>
+                      <p className="text-sm text-slate-700 font-medium">
+                        {language === 'en'
+                          ? "USA Physics Olympiad (USAPHO) Qualifier — Christopher Wang"
+                          : "美国物理奥林匹克（USAPHO）资格赛入围 — 王皓宇"}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* FTC */}
                   <div className="flex items-start p-4 bg-slate-50 rounded-xl border border-slate-100">
                     <Cpu className="w-5 h-5 text-slate-900 mr-3 mt-0.5 flex-shrink-0" />
                     <div>
@@ -93,18 +107,6 @@ export default function Founders() {
                     <Atom className="w-5 h-5 text-slate-900 mr-3 mt-0.5 flex-shrink-0" />
                     <div>
                       <p className="text-sm text-slate-700 font-medium">{t.chris.role4}</p>
-                    </div>
-                  </div>
-
-                  {/* NEW: USAPHO qualifier */}
-                  <div className="flex items-start p-4 bg-emerald-50 rounded-xl border border-emerald-100">
-                    <Award className="w-5 h-5 text-emerald-700 mr-3 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <p className="text-sm text-emerald-800 font-semibold">{t.chris.role5}</p>
-                      {/* optional extra small detail line — keep if translations provide it */}
-                      {t.chris.role5Detail ? (
-                        <p className="text-sm text-gray-600 mt-1">{t.chris.role5Detail}</p>
-                      ) : null}
                     </div>
                   </div>
 
