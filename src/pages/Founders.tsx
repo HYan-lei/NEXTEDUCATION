@@ -78,8 +78,8 @@ export default function Founders() {
                     <div>
                       <p className="text-sm text-slate-700 font-medium">
                         {language === 'en'
-                          ? "USA Physics Olympiad (USAPHO) Qualifier — Christopher Wang"
-                          : "美国物理奥林匹克（USAPHO）资格赛入围 — 王皓宇"}
+                          ? "USA Physics Olympiad (USAPHO) Qualifier"
+                          : "美国物理奥林匹克（USAPHO）资格赛入围"}
                       </p>
                     </div>
                   </div>
